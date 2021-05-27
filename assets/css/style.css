@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 85%;
+    height: 100%;
+}
+
+.slide-card {
+    position: relative;
+    width: 700px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin: auto;
+}
+
+.slide-card-center {
+    display: inline-flex !important;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide-card .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    content: '';
+    clip-path: circle(150px at center);
+    transition: 0.5s;
+}
+
+.slide-card:hover .background {
+    clip-path: circle(400px at center);
+}
+
+.slide-card img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.slide-card:hover img {
+    left: 70%;
+    height: 600px;
+}
+
+.slide-card .details {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    padding-left: 40px;
+    left: 20%;
+    opacity: 0;
+    transition: 0.3s;
+    visibility: hidden;
+}
+
+.slide-card:hover .details {
+    transition: 0.5s;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.slide-card .details h2 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.slide-card .details p {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.slide-card .details a {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: #000;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* 
+@media only screen and (max-width: 991px) {
+    .card {
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin: 40px;
+    }
+
+    .card:hover {
+        height: 700px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 40px;
+    }
+
+    .card:hover img {
+        height: 350px;
+        top: 70%;
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .card .content {
+        padding: 25px;
+    }
+} */
+
+
+.navigation {
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    list-style: none;
+    background-color: #1c1c22;
+    border-right: 3px solid #d2bb8d;
+}
+
+.img-nav {
+    height: 200px;
+    cursor: pointer;
+    margin: auto;
+}
+ 
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.slick-list {
+    height: 100vh !important;
+}
+
+/* li {
+    display: inline-flex;
+    width: 100%;
+    height: 40%;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    text-align: center;
+} */
+
+
+/*
+         secondary main
+COLORS   OPACITY   NOT OPACITY
+ANEMO:   #92D0C9   #26A193
+PYRO:    #DD9192   #BD2628
+ELECTRO: #B6A8DB   #6D51B8
+CYRO:    #BFD5E9   #80ACD2
+HYDRO:   #90C7DD   #228FBB
+GEO:     #EACA9A   #D59536
+DENDRO:  #A7CBB0   #519963
+*/

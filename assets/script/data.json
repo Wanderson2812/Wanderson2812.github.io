@@ -1,0 +1,120 @@
+{
+    "element_type": [
+        {
+            "id": 1,
+            "element": "anemo",
+            "image": "assets/img/element_anemo.png",
+            "color": 
+            {
+                "color_main": "26A193",
+                "color_secondary": "92D0C9"
+            }
+        },
+        {
+            "id": 2,
+            "element": "pyro",
+            "image": "assets/img/element_pyro.png",
+            "color": 
+            {
+                "color_main": "BD2628",
+                "color_secondary": "DD9192"
+            }
+        },
+        {
+            "id": 3,
+            "element": "hydro",
+            "image": "assets/img/element_hydro.png",
+            "color": 
+            {
+                "color_main": "228FBB",
+                "color_secondary": "90C7DD"
+            }
+        },
+        {
+            "id": 4,
+            "element": "cryo",
+            "image": "assets/img/element_cryo.png",
+            "color": 
+            {
+                "color_main": "BFD5E9",
+                "color_secondary": "80ACD2"
+            }
+        },
+        {
+            "id": 5,
+            "element": "electro",
+            "image": "assets/img/element_electro.png",
+            "color": 
+            {
+                "color_main": "B6A8DB",
+                "color_secondary": "6D51B8"
+            }
+        },
+        {
+            "id": 6,
+            "element": "geo",
+            "image": "assets/img/element_geo.png",
+            "color": 
+            {
+                "color_main": "D59536",
+                "color_secondary": "EACA9A"
+            }
+        }
+    ],
+    "characters": [
+        {
+            "name": "jean",
+            "full_name": "jean gunnhildr",
+            "element": "anemo",
+            "region": "mondstadt",
+            "description": "Como vice-chefe de Ordo Favonius, Jean sempre cumpre com seus deveres, garantindo a paz na cidade. Apesar de não ter nenhum talento especial, passou por árduos treinamentos, impressionando com a sua diligência em proteger Mondstadt.",
+            "art_official": "assets/img/characters/character_jean.png",
+            "art_card": "assets/img/cards/card_jean.png"
+        },
+        {
+            "name": "amber",
+            "full_name": "amber",
+            "element": "pyro",
+            "region": "mondstadt",
+            "description": "Uma garota cheia de energia, a única Aventureira dos Cavaleiros de Favonius de Mondstadt. Amber domina bem a arte de planar como ninguém, ganhou o prêmio de Campeã de Voo por três anos consecutivos em Mondstadt. Ela é a mais nova estrela de Ordo Favonius, mantendo-se ainda na liderança.",
+            "art_official": "assets/img/characters/character_amber.png",
+            "art_card": "assets/img/cards/card_amber.png"
+        },
+        {
+            "name": "barbara",
+            "full_name": "barbara page",
+            "element": "hydro",
+            "region": "mondstadt",
+            "description": "Diaconesa dos Igreja de Favonius, também é uma estrela brilhante amada pelas pessoas de Mondstadt. Para as pessoas de Mondstadt, que estão acostumadas com Bardos tradicionais, o conceito de 'Ídolo' é algo novo. Contudo, todos em Mondstadt adoram a Barbara. Este é o espírito da liberdade da Cidade da Liberdade. Barbara é muito grata pelo amor que recebeu de todos.",
+            "art_official": "assets/img/characters/character_barbara.png",
+            "art_card": "assets/img/cards/card_barbara.png"
+        },
+        {
+            "name": "diluc",
+            "full_name": "diluc",
+            "element": "pyro",
+            "region": "mondstadt",
+            "description": "Como o homem mais rico de Mondstadt, Diluc sempre se apresenta muito elegantemente. No entanto, sua verdadeira face é a de um guerreiro firme, sua determinação em proteger Mondstadt é como uma chama ardente, combatendo oponentes de forma implacável.",
+            "art_official": "assets/img/characters/character_diluc.png",
+            "art_card": "assets/img/cards/card_diluc.png"
+        },
+        {
+            "name": "albedo",
+            "full_name": "albedo",
+            "element": "geo",
+            "region": "mondstadt",
+            "description": "Alquimista residente de Mondstadt, serve os Cavaleiros de Favonius. 'Gênio', 'Príncipe do Giz', 'Capitão de Investigação'... Ele não se importava muito com títulos ou fama, apenas se concentrava em seus temas de pesquisa. Riqueza e conexões não eram seu objetivo. O que ele aspirava era o conhecimento supremo que havia sido escondido no fundo da mente humana desde os tempos antigos até o presente.",
+            "art_official": "assets/img/characters/character_albedo.png",
+            "art_card": "assets/img/cards/card_albedo.png"
+        },
+        {
+            "name": "mona",
+            "full_name": "mona megistus",
+            "element": "hydro",
+            "region": "mondstadt",
+            "description": "Uma jovem astróloga misteriosa que proclama a si mesmo em ser a 'Grande Astróloga Mona', e que possui as habilidades para o título. Uma pessoa erudita, mas orgulhosa. Embora a Mona leve uma vida frugal, ela nunca ganha a vida pelas suas previsões do destino... O que infelizmente causa a sua preocupação constante pela próxima refeição.",
+            "art_official": "assets/img/characters/character_mona.png",
+            "art_card": "assets/img/cards/card_mona.png"
+        }
+    ]
+}
