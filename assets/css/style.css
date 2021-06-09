@@ -117,10 +117,6 @@ body {
     margin: auto;
 }
 
-.slick-list {
-    height: 100vh !important;
-}
-
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -211,6 +207,10 @@ body {
 
     div.slide-card:hover img {
         height: 620px;
+    }
+
+    .slick-list {
+        height: 100vh !important;
     }
 }
 
