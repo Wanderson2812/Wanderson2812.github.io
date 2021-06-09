@@ -63,58 +63,92 @@
     ],
     "characters": [
         {
+            "id": 0,
             "name": "jean",
             "full_name": "jean gunnhildr",
             "element": "anemo",
+            "constelation": "leo minor",
+            "weapon": "espada",
             "region": "mondstadt",
-            "description": "Como vice-chefe de Ordo Favonius, Jean sempre cumpre com seus deveres, garantindo a paz na cidade. Apesar de não ter nenhum talento especial, passou por árduos treinamentos, impressionando com a sua diligência em proteger Mondstadt.",
-            "art_official": "assets/img/characters/character_jean.png",
-            "art_card": "assets/img/cards/card_jean.png"
+            "art_official": "assets/img/characters/jean.png",
+            "art_card": "assets/img/cards/jean.png"
         },
         {
+            "id": 1,
             "name": "amber",
             "full_name": "amber",
             "element": "pyro",
+            "constelation": "",
+            "weapon": "",
             "region": "mondstadt",
-            "description": "Uma garota cheia de energia, a única Aventureira dos Cavaleiros de Favonius de Mondstadt. Amber domina bem a arte de planar como ninguém, ganhou o prêmio de Campeã de Voo por três anos consecutivos em Mondstadt. Ela é a mais nova estrela de Ordo Favonius, mantendo-se ainda na liderança.",
-            "art_official": "assets/img/characters/character_amber.png",
-            "art_card": "assets/img/cards/card_amber.png"
+            "art_official": "assets/img/characters/amber.png",
+            "art_card": "assets/img/cards/amber.png"
         },
         {
+            "id": 2,
             "name": "barbara",
             "full_name": "barbara page",
             "element": "hydro",
+            "constelation": "",
+            "weapon": "",
             "region": "mondstadt",
-            "description": "Diaconesa dos Igreja de Favonius, também é uma estrela brilhante amada pelas pessoas de Mondstadt. Para as pessoas de Mondstadt, que estão acostumadas com Bardos tradicionais, o conceito de 'Ídolo' é algo novo. Contudo, todos em Mondstadt adoram a Barbara. Este é o espírito da liberdade da Cidade da Liberdade. Barbara é muito grata pelo amor que recebeu de todos.",
-            "art_official": "assets/img/characters/character_barbara.png",
-            "art_card": "assets/img/cards/card_barbara.png"
+            "art_official": "assets/img/characters/barbara.png",
+            "art_card": "assets/img/cards/barbara.png"
         },
         {
+            "id": 3,
             "name": "diluc",
             "full_name": "diluc",
             "element": "pyro",
+            "constelation": "",
+            "weapon": "",
             "region": "mondstadt",
-            "description": "Como o homem mais rico de Mondstadt, Diluc sempre se apresenta muito elegantemente. No entanto, sua verdadeira face é a de um guerreiro firme, sua determinação em proteger Mondstadt é como uma chama ardente, combatendo oponentes de forma implacável.",
-            "art_official": "assets/img/characters/character_diluc.png",
-            "art_card": "assets/img/cards/card_diluc.png"
+            "art_official": "assets/img/characters/diluc.png",
+            "art_card": "assets/img/cards/diluc.png"
         },
         {
+            "id": 4,
             "name": "albedo",
             "full_name": "albedo",
             "element": "geo",
+            "constelation": "",
+            "weapon": "",
             "region": "mondstadt",
-            "description": "Alquimista residente de Mondstadt, serve os Cavaleiros de Favonius. 'Gênio', 'Príncipe do Giz', 'Capitão de Investigação'... Ele não se importava muito com títulos ou fama, apenas se concentrava em seus temas de pesquisa. Riqueza e conexões não eram seu objetivo. O que ele aspirava era o conhecimento supremo que havia sido escondido no fundo da mente humana desde os tempos antigos até o presente.",
-            "art_official": "assets/img/characters/character_albedo.png",
-            "art_card": "assets/img/cards/card_albedo.png"
+            "art_official": "assets/img/characters/albedo.png",
+            "art_card": "assets/img/cards/albedo.png"
         },
         {
+            "id": 5,
             "name": "mona",
             "full_name": "mona megistus",
             "element": "hydro",
+            "constelation": "",
+            "weapon": "",
             "region": "mondstadt",
-            "description": "Uma jovem astróloga misteriosa que proclama a si mesmo em ser a 'Grande Astróloga Mona', e que possui as habilidades para o título. Uma pessoa erudita, mas orgulhosa. Embora a Mona leve uma vida frugal, ela nunca ganha a vida pelas suas previsões do destino... O que infelizmente causa a sua preocupação constante pela próxima refeição.",
-            "art_official": "assets/img/characters/character_mona.png",
-            "art_card": "assets/img/cards/card_mona.png"
+            "art_official": "assets/img/characters/mona.png",
+            "art_card": "assets/img/cards/mona.png"
+        },
+        {
+            "id": 6,
+            "name": "klee",
+            "full_name": "",
+            "element": "pyro",
+            "constelation": "trifolium",
+            "weapon": "catalisador",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/klee.png",
+            "art_card": "assets/img/cards/klee.png"
+        },
+        {
+            "id": 7,
+            "name": "qiqi",
+            "full_name": "",
+            "element": "cryo",
+            "constelation": "",
+            "weapon": "espada",
+            "region": "liyue",
+            "art_official": "assets/img/characters/qiqi.png",
+            "art_card": "assets/img/cards/qiqi.png"
         }
     ]
 }

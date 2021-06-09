@@ -13,30 +13,21 @@ body {
 .content {
     height: 100vh;
     width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
 }
 
-.card {
-    width: 85%;
-    height: 100%;
+.card-navigation {
+    margin: auto 10px;
 }
 
 .slide-card {
     position: relative;
-    width: 700px;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    border-radius: 20px;
+    height: 500px;
     transition: 0.5s;
-    margin: auto;
 }
 
 .slide-card-center {
-    display: inline-flex !important;
-    width: 100%;
+    padding: 20px;
     height: 100vh;
 }
 
@@ -49,7 +40,7 @@ body {
     border-radius: 20px;
     overflow: hidden;
     content: '';
-    clip-path: circle(150px at center);
+    clip-path: circle(100px at center);
     transition: 0.5s;
 }
 
@@ -62,22 +53,20 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 450px;
+    height: 350px;
     pointer-events: none;
     transition: 0.5s;
 }
 
 .slide-card:hover img {
-    left: 70%;
-    height: 600px;
+    top: 65%;
+    left: 60%;
 }
 
 .slide-card .details {
     position: relative;
-    width: 50%;
-    padding: 20px;
-    padding-left: 40px;
-    left: 20%;
+    /* width: 100%; */
+    padding: 15px;
     opacity: 0;
     transition: 0.3s;
     visibility: hidden;
@@ -115,72 +104,125 @@ body {
     font-weight: bold;
 }
 
-
-/* 
-@media only screen and (max-width: 991px) {
-    .card {
-        width: auto;
-        max-width: 350px;
-        align-items: flex-start;
-        margin: 40px;
-    }
-
-    .card:hover {
-        height: 700px;
-    }
-
-    .card .content {
-        width: 100%;
-        left: 0;
-        padding: 40px;
-    }
-
-    .card:hover img {
-        height: 350px;
-        top: 70%;
-        left: 50%;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .card .content {
-        padding: 25px;
-    }
-} */
-
-
 .navigation {
-    width: 15%;
-    height: 100%;
-    text-align: center;
     list-style: none;
     background-color: #1c1c22;
-    border-right: 3px solid #d2bb8d;
+    border-bottom: 3px solid #d2bb8d;
+    display: flex;
 }
 
 .img-nav {
-    height: 200px;
+    height: 120px;
     cursor: pointer;
     margin: auto;
-}
- 
-::-webkit-scrollbar {
-    width: 0px;
 }
 
 .slick-list {
     height: 100vh !important;
 }
 
-/* li {
-    display: inline-flex;
-    width: 100%;
-    height: 40%;
-    margin: auto;
-    position: relative;
-    align-items: center;
-    text-align: center;
-} */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+@media only screen and (min-width: 425px) {
+    .slide-card:hover img {
+        top: 60%;
+        left: 65%;
+        height: 400px;
+    }
+
+    .slide-card {
+        width: 370px;
+        margin: auto;
+    }
+
+    .slide-card img {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    img.img-nav {
+        height: 140px;
+    }
+
+    li.card-navigation {
+        margin: auto 20px;
+    }
+
+    div.slide-card {
+        width: 550px;
+        height: 320px;
+        margin: auto;
+        top: 15%;
+    }
+
+    div.slide-card img {
+        height: 450px;
+    }
+
+    div.slide-card .background {
+        clip-path: circle(125px at center);
+    }
+
+    div.slide-card:hover img {
+        top: 50%;
+        left: 80%;
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 1024px) { 
+    div.card {
+        width: 80%;
+        height: 100%;
+        float: right;
+    }
+
+    ul.navigation {
+        width: 20%;
+        height: 100%;
+        display: inline-block;
+        left: 0;
+        position: absolute;
+        border: none;
+        border-right: 3px solid #d2bb8d;
+    }
+
+    div.slide-card {
+        width: 650px;
+        height: 350px;
+        margin: auto;
+        top: 20%;
+    }
+
+    div.slide-card .background {
+        clip-path: circle(160px at center);
+    }
+
+    div.slide-card img {
+        height: 550px;
+    }
+
+    img.img-nav {
+        height: 200px;
+    }
+
+    div.slide-card:hover img {
+        height: 620px;
+    }
+}
+
+@media only screen and (min-width: 1440px) { 
+    ul.navigation {
+        width: 15%;
+    }
+
+    div.card {
+        width: 85%;
+    }
+}
 
 
 /*
