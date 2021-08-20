@@ -86,6 +86,28 @@
         },
         {
             "id": 2,
+            "name": "lisa",
+            "full_name": "",
+            "element": "electro",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/lisa.png",
+            "art_card": "assets/img/cards/lisa.png"
+        },
+        {
+            "id": 3,
+            "name": "kaeya",
+            "full_name": "",
+            "element": "cryo",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/kaeya.png",
+            "art_card": "assets/img/cards/kaeya.png"
+        },
+        {
+            "id": 4,
             "name": "barbara",
             "full_name": "barbara page",
             "element": "hydro",
@@ -96,7 +118,7 @@
             "art_card": "assets/img/cards/barbara.png"
         },
         {
-            "id": 3,
+            "id": 5,
             "name": "diluc",
             "full_name": "diluc",
             "element": "pyro",
@@ -107,29 +129,29 @@
             "art_card": "assets/img/cards/diluc.png"
         },
         {
-            "id": 4,
-            "name": "albedo",
-            "full_name": "albedo",
-            "element": "geo",
-            "constelation": "",
-            "weapon": "",
-            "region": "mondstadt",
-            "art_official": "assets/img/characters/albedo.png",
-            "art_card": "assets/img/cards/albedo.png"
-        },
-        {
-            "id": 5,
-            "name": "mona",
-            "full_name": "mona megistus",
-            "element": "hydro",
-            "constelation": "",
-            "weapon": "",
-            "region": "mondstadt",
-            "art_official": "assets/img/characters/mona.png",
-            "art_card": "assets/img/cards/mona.png"
-        },
-        {
             "id": 6,
+            "name": "razor",
+            "full_name": "",
+            "element": "electro",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/razor.png",
+            "art_card": "assets/img/cards/razor.png"
+        },
+        {
+            "id": 7,
+            "name": "venti",
+            "full_name": "",
+            "element": "anemo",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/venti.png",
+            "art_card": "assets/img/cards/venti.png"
+        },
+        {
+            "id": 8,
             "name": "klee",
             "full_name": "",
             "element": "pyro",
@@ -140,15 +162,301 @@
             "art_card": "assets/img/cards/klee.png"
         },
         {
-            "id": 7,
+            "id": 9,
+            "name": "bennett",
+            "full_name": "",
+            "element": "pyro",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/bennett.png",
+            "art_card": "assets/img/cards/bennett.png"
+        },
+        {
+            "id": 10,
+            "name": "noelle",
+            "full_name": "",
+            "element": "geo",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/noelle.png",
+            "art_card": "assets/img/cards/noelle.png"
+        },
+        {
+            "id": 11,
+            "name": "fischl",
+            "full_name": "",
+            "element": "electro",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/fischl.png",
+            "art_card": "assets/img/cards/fischl.png"
+        },
+        {
+            "id": 12,
+            "name": "sucreose",
+            "full_name": "",
+            "element": "anemo",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/sucrose.png",
+            "art_card": "assets/img/cards/sucrose.png"
+        },
+        {
+            "id": 13,
+            "name": "mona",
+            "full_name": "mona megistus",
+            "element": "hydro",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/mona.png",
+            "art_card": "assets/img/cards/mona.png"
+        },
+        {
+            "id": 14,
+            "name": "diona",
+            "full_name": "",
+            "element": "cryo",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/diona.png",
+            "art_card": "assets/img/cards/diona.png"
+        },
+        {
+            "id": 15,
+            "name": "albedo",
+            "full_name": "",
+            "element": "geo",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/albedo.png",
+            "art_card": "assets/img/cards/albedo.png"
+        },
+        {
+            "id": 16,
+            "name": "rosaria",
+            "full_name": "",
+            "element": "cryo",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/rosaria.png",
+            "art_card": "assets/img/cards/rosaria.png"
+        },
+        {
+            "id": 17,
+            "name": "eula",
+            "full_name": "",
+            "element": "cryo",
+            "constelation": "",
+            "weapon": "",
+            "region": "mondstadt",
+            "art_official": "assets/img/characters/eula.png",
+            "art_card": "assets/img/cards/eula.png"
+        },
+        {
+            "id": 18,
+            "name": "xiao",
+            "full_name": "",
+            "element": "anemo",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/xiao.png",
+            "art_card": "assets/img/cards/xiao.png"
+        },
+        {
+            "id": 19,
+            "name": "beidou",
+            "full_name": "",
+            "element": "electro",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/beidou.png",
+            "art_card": "assets/img/cards/beidou.png"
+        },
+        {
+            "id": 20,
+            "name": "ningguang",
+            "full_name": "",
+            "element": "geo",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/ningguang.png",
+            "art_card": "assets/img/cards/ningguang.png"
+        },
+        {
+            "id": 21,
+            "name": "xiangling",
+            "full_name": "",
+            "element": "pyro",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/xiangling.png",
+            "art_card": "assets/img/cards/xiangling.png"
+        },
+        {
+            "id": 22,
+            "name": "xingqiu",
+            "full_name": "",
+            "element": "hydro",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/xingqiu.png",
+            "art_card": "assets/img/cards/xingqiu.png"
+        },
+        {
+            "id": 23,
+            "name": "chongyun",
+            "full_name": "",
+            "element": "cryo",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/chongyun.png",
+            "art_card": "assets/img/cards/chongyun.png"
+        },
+        {
+            "id": 24,
             "name": "qiqi",
             "full_name": "",
             "element": "cryo",
             "constelation": "",
-            "weapon": "espada",
+            "weapon": "",
             "region": "liyue",
             "art_official": "assets/img/characters/qiqi.png",
             "art_card": "assets/img/cards/qiqi.png"
+        },
+        {
+            "id": 25,
+            "name": "keqing",
+            "full_name": "",
+            "element": "electro",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/keqing.png",
+            "art_card": "assets/img/cards/keqing.png"
+        },
+        {
+            "id": 26,
+            "name": "tartaglia",
+            "full_name": "",
+            "element": "hydro",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/tartaglia.png",
+            "art_card": "assets/img/cards/tartaglia.png"
+        },
+        {
+            "id": 27,
+            "name": "zhongli",
+            "full_name": "",
+            "element": "geo",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/zhongli.png",
+            "art_card": "assets/img/cards/zhongli.png"
+        },
+        {
+            "id": 28,
+            "name": "xinyan",
+            "full_name": "",
+            "element": "pyro",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/xinyan.png",
+            "art_card": "assets/img/cards/xinyan.png"
+        },
+        {
+            "id": 29,
+            "name": "ganyu",
+            "full_name": "",
+            "element": "cryo",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/ganyu.png",
+            "art_card": "assets/img/cards/ganyu.png"
+        },
+        {
+            "id": 30,
+            "name": "hutao",
+            "full_name": "",
+            "element": "pyro",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/hutao.png",
+            "art_card": "assets/img/cards/hutao.png"
+        },
+        {
+            "id": 31,
+            "name": "yanfei",
+            "full_name": "",
+            "element": "pyro",
+            "constelation": "",
+            "weapon": "",
+            "region": "liyue",
+            "art_official": "assets/img/characters/yanfei.png",
+            "art_card": "assets/img/cards/yanfei.png"
+        },
+        {
+            "id": 32,
+            "name": "ayaka",
+            "full_name": "",
+            "element": "cryo",
+            "constelation": "",
+            "weapon": "",
+            "region": "inazuma",
+            "art_official": "assets/img/characters/ayaka.png",
+            "art_card": "assets/img/cards/ayaka.png"
+        },
+        {
+            "id": 33,
+            "name": "kazuha",
+            "full_name": "",
+            "element": "anemo",
+            "constelation": "",
+            "weapon": "",
+            "region": "inazuma",
+            "art_official": "assets/img/characters/kazuha.png",
+            "art_card": "assets/img/cards/kazuha.png"
+        },
+        {
+            "id": 34,
+            "name": "yoimiya",
+            "full_name": "",
+            "element": "pyro",
+            "constelation": "",
+            "weapon": "",
+            "region": "inazuma",
+            "art_official": "assets/img/characters/yoimiya.png",
+            "art_card": "assets/img/cards/yoimiya.png"
+        },
+        {
+            "id": 35,
+            "name": "sayu",
+            "full_name": "",
+            "element": "anemo",
+            "constelation": "",
+            "weapon": "",
+            "region": "inazuma",
+            "art_official": "assets/img/characters/sayu.png",
+            "art_card": "assets/img/cards/sayu.png"
         }
     ]
 }

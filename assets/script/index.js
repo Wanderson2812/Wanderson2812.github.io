@@ -128,8 +128,6 @@ var cardLayout =
             <div class="background"></div>\n\
             <div class="details">\n\
                 <h2 id="name"></h2>\n\
-                <p id="description"></p>\n\
-                <a href="#">Mais Detalhes</a>\n\
             </div>\n\
             <img loading="lazy" id="img"/>\n\
         </div>\n\
